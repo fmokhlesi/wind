@@ -1,0 +1,11 @@
+/*@tailwind base;*/
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .btn {
+    @apply block w-[100px] h-[30px] bg-red leading-[30px] capitalize text-[16px] group-hover:bg-slate-700 font-medium;
+  }
+  .card {
+    @apply w-[30%] h-auto p-[30px] group box-border bg-slate-500 text-white font-[12px];
+  }
+};
